@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme = 'Light'>
-         <Header/>
-         {children}
-         <Footer/>
+        <Header/>
+        {children}
+        <Footer/>
         </ThemeProvider>
       </body>
     </html>
